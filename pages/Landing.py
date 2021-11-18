@@ -23,28 +23,29 @@ def app():
         st.write("")
 
 # #DESCRIPTION Orientation-----------------------------
-#     col4, col5, col6 = st.columns([1,4,2])
-#
-#     with col4:
-#         st.write("")
-#
-#     with col5:
-#
-#         st.markdown(
-#             """
-#             _________________________________________________________________________________________________________________________________
-#             ### Description
-#             + The Dragonfly Surface Composition Modeling (DSCM) App is a linear mixing model, which utilizes optical constants and reflectance spectra avaliable in literature to model..
-#             + Developed using the Shkuratov Model (1999), albedo (reflectance) of a surface can be calculated and serve as an approximation tool for the Dragonfly mission to Titan.
-#             + Insert link to Shkuratov paper here??
-#
-#             ### Notation
-#             + Tholins are named in accordance to syntax in papers. Visit DOI for more information.
-#             _________________________________________________________________________________________________________________________________
-#             """
-#             )
-#     with col6:
-#         st.write("")
+    col4, col5, col6 = st.columns([1,4,2])
+
+    with col4:
+        st.write("")
+
+    with col5:
+
+        st.markdown(
+
+            # _________________________________________________________________________________________________________________________________
+            # ### Description
+            # + The Dragonfly Surface Composition Modeling (DSCM) App is a linear mixing model, which utilizes optical constants and reflectance spectra avaliable in literature to model..
+            # + Developed using the Shkuratov Model (1999), albedo (reflectance) of a surface can be calculated and serve as an approximation tool for the Dragonfly mission to Titan.
+            # + Insert link to Shkuratov paper here??
+            #
+            # ### Notation
+            # + Tholins are named in accordance to syntax in papers. Visit DOI for more information.
+            """
+            _________________________________________________________________________________________________________________________________
+            """
+            )
+    with col6:
+        st.write("")
 
 #LIB Orientation-----------------------------
     col7, col8, col9 = st.columns([1,4,3])
@@ -53,11 +54,7 @@ def app():
         st.write("")
 
     with col8:
-         st.markdown(
-                     """
-                 _________________________________________________________________________________________________________________________________
-        """
-                    )
+
         st.header("Database Libraries")
         libpick = st.selectbox(
         "Select a Library",
