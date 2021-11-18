@@ -11,11 +11,7 @@ import cmath
 import math
 import shkuratov_ssa_models as shkrtv
 import rmodel as rm
-import matplotlib.cm as cm
-import matplotlib.pyplot as plt
-import plotly.graph_objects as go
 from plotly import express as px
-from plotly.subplots import make_subplots
 import base64
 
 from streamlit import caching
