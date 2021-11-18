@@ -9,7 +9,7 @@ Models used include an intimate mixing using the [Shkuratov model](https://www.s
 
 ## Installation
 
-**Note: You only need to install Traingenerator if you want to contribute or run it 
+**Note: You only need to install Dragonfly_CompModeling_UI if you want to contribute or run it 
 locally. If you just want to use it, go [here](https://share.streamlit.io/karnegre/dragonfly_compmodeling_ui/main/app.py).**
 
 ```bash
