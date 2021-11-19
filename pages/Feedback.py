@@ -23,6 +23,6 @@ def app():
             st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html = True)
 
     cwd =os.getcwd()
-    path= os.path.join( cwd,'style','style.css')
+    path= os.path.join( cwd,'pages','style','style.css')
 
     local_css(path)
