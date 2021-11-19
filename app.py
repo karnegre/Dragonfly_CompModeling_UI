@@ -5,7 +5,7 @@ from PIL import  Image
 import pandas as pd
 # Custom imports
 from multipage import MultiPage
-from pages import Landing,  OCplot, Rplot # import your pages here
+from pages import Landing,  OCplot, Rplot, Feedback # import your pages here
 
 
 OCfiles_selected=[]
@@ -22,7 +22,7 @@ st.sidebar.title('Dragonfly Surface Composition Modeling')
 app.add_page("Home", Landing.app)
 app.add_page("Optical Constant Modeling", OCplot.app)
 app.add_page("Reflectance Spectra Modeling", Rplot.app)
-
+app.add_page("Feedback", Feedback.app)
 
 
 # The main app
