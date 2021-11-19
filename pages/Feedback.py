@@ -11,4 +11,4 @@ def app():
      <button type="submit">Send</button>
      </form>"""
 
-     st.markdown (contact_form, unsafe_allow html = True)
+    st.markdown(contact_form, unsafe_allow html = True)
