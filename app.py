@@ -22,7 +22,7 @@ st.sidebar.title('Dragonfly Surface Composition Modeling')
 app.add_page("Home", Landing.app)
 app.add_page("Optical Constant Modeling", OCplot.app)
 app.add_page("Reflectance Spectra Modeling", Rplot.app)
-app.add_page("Feedback", Feedback.app)
+app.add_page("Beta Tester Feedback", Feedback.app)
 
 
 # The main app

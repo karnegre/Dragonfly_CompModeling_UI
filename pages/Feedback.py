@@ -12,6 +12,7 @@ def app():
          <input type="text" name="name" placeholder ="Your name" required>
          <input type="email" name="email" placeholder ="Your email" required>
          <textarea name="message" placeholder="Your feedback here"></textarea>
+         <input type="hidden" name="_next" value="https://share.streamlit.io/karnegre/dragonfly_compmodeling_ui/main/app.py">
          <button type="submit">Send</button>
      </form>
      """
