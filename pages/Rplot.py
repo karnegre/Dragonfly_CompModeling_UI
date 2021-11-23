@@ -25,7 +25,7 @@ dfRLib= pd.DataFrame()
 
 #Platform independence
 cwd =os.getcwd()
-cleanIR_path= os.path.join( cwd,'cleaned','R')
+cleanIR_path= os.path.join( cwd,'cleaningcode','cleaned','R')
 
 session_state = SessionState.get(SpectraDict = [],CurrentSpectraIndex=0,Num_Spectra_Prev=0,OC_select=[],restart=0,IR_select=[])
 # ------------------------------------------------------

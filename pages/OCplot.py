@@ -25,7 +25,7 @@ q=0.50;
 
 #Platform independence
 cwd =os.getcwd()
-OCfiles_path= os.path.join( cwd,'cleaned','OC')
+OCfiles_path= os.path.join( cwd,'cleaningcode','cleaned','OC')
 
 session_state = SessionState.get(SpectraDict = [],CurrentSpectraIndex=0,Num_Spectra_Prev=0,OC_select=[],restart=0,IR_select=[])
 # -----------------------------------------MAIN------------------------------------------------
