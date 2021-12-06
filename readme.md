@@ -25,3 +25,29 @@ streamlit run app.py
 ## Using the Models
 tbd
 
+## Instructions for Uploading Data
+There are two sets of instructions for prepping the data; one for uploading optical constant data and the other for reflectance spectra data
+### Data Preparation
+1. Prepping your Optical Constant Data
+    - Copy and paste data into Notepad
+    - Data must be in the following format:
+   
+     ![This is an image](Format.JPG)
+   
+        - wave column contains the wavelength domain (micron)
+        - n column contains the refractive indexes
+        - k column contains the extinction coefficients
+       
+    - Save the file as the name of the compound and as a .txt file
+2. Prepping your Reflectance Data
+    - Copy and paste data into Notepad
+    - Data must be in the following format:
+   
+     ![This is an image](Format2.JPG)
+   
+        - wave column contains the wavelength domain (micron)
+        - r column contains the albedo 
+       
+    - Save the file as the name of the compound and as a .txt file
+### Data Upload
+Head to the app [Multi-Composite Spectra Modeling UI](https://share.streamlit.io/karnegre/dragonfly_compmodeling_ui/main/app.py) and complete the form under the Upload Data tab

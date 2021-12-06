@@ -195,7 +195,6 @@ def process_sidebar():
 #----------------------ITEM 1: Select desired compounds---------------------------------------
         st.sidebar.header('Select Compounds')
         OCfile_list = CompNameList
-
         Group_list = ['Ice','Organic','Oceanic','Tholin','Higher Order Organic']
         Group_selected = st.sidebar.selectbox(label="Grouping",options=Group_list)
 
@@ -207,7 +206,6 @@ def process_sidebar():
         GroupLib=Lib[Lib.Grouping.str.contains(Group_selected)]
         OCfile_list = GroupLib['Possible Compounds on Titans Surface'].tolist()
         OCfiles_selected = st.sidebar.multiselect(label="Compounds",options=OCfile_list)
-
         number_oc = len(OCfiles_selected)
         number_oc_statelist = len(session_state.OC_select)
 
