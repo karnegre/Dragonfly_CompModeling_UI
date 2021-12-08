@@ -1,5 +1,6 @@
 ## Multi-Composite Modeling UI
-Updated: 2021.18.11
+
+Updated: 2021.06.12, 2021.18.11
 
 Beta 1.0 now available for testing: [Multi-Composite Spectra Modeling UI](https://share.streamlit.io/karnegre/dragonfly_compmodeling_ui/main/app.py).
 
@@ -55,7 +56,7 @@ The app contains two different models for creating multi-composite spectra: Opti
 - Download data as CSV option avaliable 
 6. To create another set of spectra using this model, **you must** click on *Restart RS Modeling*
 
-## Instructions for Uploading Data
+## Instructions for Adding new Data to Database
 There are two sets of instructions for prepping the data; one for uploading optical constant data and the other for reflectance spectra data
 ### Data Preparation
 1. Prepping your Optical Constant Data
