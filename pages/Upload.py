@@ -80,5 +80,5 @@ def app():
             path_csv = os.path.join(cwd,'userupload','userinfo.csv')
             with open (path_csv, 'a', newline='') as f_obj:
                 df_user.to_csv(f_obj, sep = "\t", header=False, index = False)
-
+                
             save_uploaded_IRfile(datafile)

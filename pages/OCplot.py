@@ -203,7 +203,7 @@ def process_sidebar():
         path_file = os.sep.join([cwd, filename])
         Lib=pd.read_excel(path_file,sheet_name="O Library")
 
-        GroupLib=Lib[Lib.Grouping.str.contains(Group_selected)]
+        GroupLib=Lib[Lib.Grouping.str.match(Group_selected)]
         OCfile_list = GroupLib['Possible Compounds on Titans Surface'].tolist()
         OCfiles_selected = st.sidebar.multiselect(label="Compounds",options=OCfile_list)
         number_oc = len(OCfiles_selected)

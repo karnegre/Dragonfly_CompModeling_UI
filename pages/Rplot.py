@@ -242,7 +242,7 @@ def process_sidebar():
         path_file = os.sep.join([cwd, filename])
         Lib=pd.read_excel(path_file,sheet_name="R Library")
 
-        GroupLib=Lib[Lib.Grouping.str.contains(Group_selected)]
+        GroupLib=Lib[Lib.Grouping.str.match(Group_selected)]
         IRfile_list = GroupLib['Possible Compounds on Titans Surface'].tolist()
         IRfiles_selected = st.sidebar.multiselect(label="Compounds",options=IRfile_list)
 
