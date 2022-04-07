@@ -1,6 +1,8 @@
 ## Multi-Composite Modeling UI
 
-Updated: 2021.06.12, 2021.18.11
+Updated: 2022.04.07,2021.12.06, 2021.11.18
+
+Streamlit Cloud will put this public app to sleep after 7 consecutive days without traffice to alleviate resources and allow best communal use of the platform. **To wake the app up, press the "Yes, get this app back up!" button.** 
 
 Beta 1.0 now available for testing: [Multi-Composite Spectra Modeling UI](https://share.streamlit.io/karnegre/dragonfly_compmodeling_ui/main/app.py).
 
