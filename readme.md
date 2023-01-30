@@ -1,4 +1,4 @@
-## Multi-Composite Modeling UI
+## Composite Modeling UI
 
 Updated: 2022.04.07,2021.12.06, 2021.11.18
 
